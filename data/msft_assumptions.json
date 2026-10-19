@@ -1,0 +1,53 @@
+{
+  "years": 10,
+  "revenue_growth": [
+    0.1793,
+    0.1966,
+    0.1768,
+    0.157,
+    0.1371,
+    0.1173,
+    0.0975,
+    0.0776,
+    0.0578,
+    0.038
+  ],
+  "ebit_margin": 0.46,
+  "tax_rate": 0.2,
+  "da_pct_revenue": 0.1161,
+  "capex_pct_revenue": [
+    0.4462,
+    0.4107,
+    0.3752,
+    0.3397,
+    0.3042,
+    0.2686,
+    0.2331,
+    0.1976,
+    0.1621,
+    0.1266
+  ],
+  "risk_free_rate": 0.0509,
+  "beta": 1.1,
+  "equity_risk_premium": 0.0423,
+  "pre_tax_cost_of_debt": 0.0605,
+  "debt_to_capital": 0.0279,
+  "terminal_growth": 0.038,
+  "shares_outstanding": 7430000000.0,
+  "sources": {
+    "revenue_growth": "FY2027 +17.93% and FY2028 +19.66%: analyst consensus (Yahoo Finance, ~50 analysts, Oct 17 2026). FY2029-2036: no consensus exists; growth declines in a straight line to the terminal rate (Damodaran's high-growth-to-stable method). Microsoft guided only 'double-digit' growth for FY2027; Q1 FY2027 guide is +16-17%.",
+    "ebit_margin": "46.0%: FY2026 actual was 46.8% (10-K); management guided FY2027 operating margin to fall by less than 1 point (Q4 FY2026 earnings call, Jul 29 2026). No longer-term guidance; held flat.",
+    "tax_rate": "20%: management guidance for FY2027 effective tax rate (Q4 FY2026 earnings call). FY2026 actual 19.4%.",
+    "da_pct_revenue": "11.61% = FY2026 'Depreciation, amortization, and other' $38,534M / revenue $331,839M (10-K cash flow statement). Held flat.",
+    "capex_pct_revenue": "FY2027 44.6%: Q1 FY2027 capex guided at 'over $50B' including finance leases; x4 = $200B, times the 87% cash share seen in Q4 FY2026 ($35.8B cash of $41B total) = $175B, consistent with ~$175B calendar-2026 guidance. Microsoft gave no full-year FY2027 figure. Then declines in a straight line to 12.7%, Microsoft's own pre-AI average (FY2022-23, 10-K), by year 10. The fade path is a method, not a data point - see sensitivity.",
+    "nwc_pct_revenue": "Average of FY2022-2026 non-cash working capital / revenue from the 10-Ks (negative: customers pay Microsoft before it delivers).",
+    "risk_free_rate": "5.09%: 10-year US Treasury yield, Oct 16 2026 (YCharts).",
+    "beta": "1.10: 5-year monthly beta, Yahoo Finance, Oct 17 2026.",
+    "equity_risk_premium": "4.23%: Damodaran implied US equity risk premium, January 2026 (latest figure found; he updates monthly at pages.stern.nyu.edu/~adamodar).",
+    "pre_tax_cost_of_debt": "6.05%: Moody's Seasoned Aaa corporate bond yield, Oct 15 2026 (FRED series DAAA). Microsoft is rated AAA/Aaa.",
+    "debt_to_capital": "2.79%: debt $40.3B + finance lease liabilities $66.6B (FY2026 10-K) vs market cap $3.72T (Yahoo Finance, Oct 16 2026 close $529.05).",
+    "terminal_growth": "3.8%: CBO long-run US real GDP growth 1.8% + inflation 2.0% (Budget and Economic Outlook 2026-2036). A company cannot outgrow the economy forever; must stay below the risk-free rate (Damodaran).",
+    "shares_outstanding": "7.43B: current shares outstanding, Yahoo Finance, Oct 2026.",
+    "cash_and_debt": "Cash = cash, equivalents and short-term investments $76.8B (FY2026 10-K). Debt includes finance leases; operating leases excluded because their payments are already deducted inside EBIT."
+  }
+}
